@@ -1,7 +1,8 @@
 package com.javaex.problem04;
 
 public class Sparrow extends Bird {
-			public Sparrow() {
+	
+	public Sparrow() {
 				};
 	
 	

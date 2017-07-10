@@ -3,9 +3,10 @@ package com.javaex.problem04;
 public abstract class Bird {
     private String name;
     
-    abstract void fly();
-    abstract void sing();
-    abstract void showName();
+    public abstract void fly();
+    public abstract void sing();
+    public abstract void showName();
+    public Bird() {}
 
 	public Bird(String name) {
 		super();

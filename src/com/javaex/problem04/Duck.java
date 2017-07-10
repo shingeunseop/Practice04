@@ -2,11 +2,7 @@ package com.javaex.problem04;
 
 public class Duck extends Bird {
 	
-	public Duck() {
-		super(name);
-		this.name = name;
-		
-	};
+	
     public void sing() {
     	System.out.println("오리("+this.getName()+")가 소리내어 웁니다.");
     	
